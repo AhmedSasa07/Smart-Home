@@ -9,6 +9,7 @@ import 'package:hi_ddd_test1/modules/living_curtains/living_Curtains.dart';
 import 'package:hi_ddd_test1/modules/messenger/messenger.dart';
 import 'package:hi_ddd_test1/modules/bmi_result/result_bmi.dart';
 import 'package:hi_ddd_test1/modules/newTasks/NewTasksScreen.dart';
+import 'package:hi_ddd_test1/modules/realtime_database_screen2.dart';
 import 'package:hi_ddd_test1/modules/slider.dart';
 import 'package:hi_ddd_test1/modules/smart_home_home_screen/about.dart';
 import 'package:hi_ddd_test1/modules/smart_home_home_screen/smart_home_home_screen.dart';
@@ -32,7 +33,7 @@ void main() {
    return MaterialApp(
     debugShowCheckedModeBanner:false ,
      title: 'Smart Home',
-     home: OnboardingScreen(),
+     home: RealTimeDataScreen(),
    );
   }
 

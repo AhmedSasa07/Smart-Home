@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hi_ddd_test1/modules/LoginScreen/LoginScreen.dart';
+import 'package:hi_ddd_test1/modules/smart_home_home_screen/smart_home_home_screen.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -13,7 +14,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   bool firstOpen = true;
   void _onIntroEnd(context) async {
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => LoginScreen()),
+      MaterialPageRoute(builder: (_) => HomeScreen()),
     );
   }
 
